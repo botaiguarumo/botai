@@ -1,47 +1,47 @@
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="https://botai.guarumo.com/static/css/chat_box.css">
- 	<style type="text/css">
-	  #live-chat {
-	  width: 320px;
-    }
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://botai.guarumo.com/static/css/chat_box.css">
+    <style type="text/css">
+      #live-chat {
+        width: 320px;
+      }
 
-    #live-chat>#chat-container>header#header-chat {
-	    min-height: 69px;
-    }
+      #live-chat>#chat-container>header#header-chat {
+        min-height: 69px;
+      }
 
-    #live-chat>#chat-container #chat-body>.chat-history {
-	    background-image: url("https://assetscdn-wchat.freshchat.com/static/assets/images/texture_background_3-d8c3cb99c259911f299342995480e7b2.png");
-	    /* https://js.intercomcdn.com/images/background-1.9cde5385.png */
-	    height: 320px;
-    }
+      #live-chat>#chat-container #chat-body>.chat-history {
+        background-image: url("https://assetscdn-wchat.freshchat.com/static/assets/images/texture_background_3-d8c3cb99c259911f299342995480e7b2.png");
+        /* https://js.intercomcdn.com/images/background-1.9cde5385.png */
+        height: 320px;
+      }
 
-    #live-chat>#chat-container #chat-body>fieldset#chat-input>input[type=text] {
-	    width: 247px;
-	    padding: 10px 14px 12px;
-    }
+      #live-chat>#chat-container #chat-body>fieldset#chat-input>input[type=text] {
+        width: 247px;
+        padding: 10px 14px 12px;
+      }
 
-    #live-chat>#chat-container>header#header-chat>.chat-close {
-	    right: 4px;
-	    border-radius: 6px;
-      border: 1px solid #ffffff;
-      box-shadow: none;
-      text-shadow: none;
-    }
+      #live-chat>#chat-container>header#header-chat>.chat-close {
+        right: 4px;
+        border-radius: 6px;	    
+        border: none; /*1px solid #ffffff;*/
+        box-shadow: none;
+        text-shadow: none;
+      }
 
-    #live-chat>#chat-container>header#header-chat>.chat-close::after {
-	    top: 3px;
-      right: 5px;
-    }
+      #live-chat>#chat-container>header#header-chat>.chat-close::after {
+        top: 4px;
+        right: 6px;
+      }
 
-    #live-chat>#chat-container>header#header-chat>.header-chat_avatar {
-	    top: -32px;
-    }
+      #live-chat>#chat-container>header#header-chat>.header-chat_avatar {
+        top: -32px;
+      }
 
-    #live-chat>#chat-container>header#header-chat>.header-chat_avatar img {
-	    padding-bottom: .5rem;
-    }
-	</style>
+      #live-chat>#chat-container>header#header-chat>.header-chat_avatar img {
+        padding-bottom: .5rem;
+      }
+    </style>
   </head>
 
   <body>
@@ -52,10 +52,10 @@
     <script type="text/javascript"> 
       var  Params = { 
         'BotId':1106, 
-        'BotVersionId':1098, 
-        'BotHost' : 'https://botai.guarumo.com', 
-        'Initial_Step': '/reset' 
-      } 
+        'BotVersionId':1098,
+        'BotHost' : 'https://botai.guarumo.com',
+        'Initial_Step': '/reset'
+      }
       var  ChatBotItem = new ChatBot(Params); 
     </script>
   </body>
