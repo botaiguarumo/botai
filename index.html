@@ -48,21 +48,23 @@
   </head>
 
   <body>
-    <div id="live-chat" ></div> 
-    <script src="https://botai.guarumo.com/static/js/linkify.js"></script>
-    <script src="https://botai.guarumo.com/static/js/linkify-html.js"></script>
-    <script type="text/javascript" src="https://releasebotai.guarumo.com/static/js/BotScript/chatbot.js"></script>
-    <script type="text/javascript">
-      var Params = {
-        'BotId':1106,
-        'BotVersionId':1098,
-        'BotHost' : 'https://releasebotai.guarumo.com',
+     <div id="live-chat" ></div> 
+    <link rel="stylesheet" type="text/css" href="https://botai.guarumo.com/static/css/chat_box.css"> 
+    <script src="https://botai.guarumo.com/static/js/linkify.js"></script> 
+    <script src="https://botai.guarumo.com/static/js/linkify-html.js"></script> 
+    <script type="text/javascript" src="https://botai.guarumo.com/static/js/BotScript/chatbot.js"></script> 
+    <script type="text/javascript"> 
+      var  Params = { 
+        'BotId':1135, 
+        'BotVersionId':1127, 
+        'BotHost' : 'https://botai.guarumo.com', 
         'Initial_Step': '/reset',
         'user_vars':  {
-          'unovar' : 'no se', 'dosvar' : 'que', 'tresVar' : 'es esto',
+          'nom' : '', 'ape' : '', 'ciu' : '', 'tel' : '', 
         }
-      }
-      var ChatBotItem = new ChatBot(Params);
-    </script>
+
+      } 
+      var  ChatBotItem = new ChatBot(Params); 
+    </script> 
   </body>
 </html>
